@@ -17,6 +17,7 @@ driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 driver.findElement(By.id("autosuggest")).sendKeys("ind");
 Thread.sleep(3000);
 driver.findElement(By.xpath("(//a[normalize-space()='India'])[1]")).click();
+driver.findElement(By.xpath("(//a[normalize-space()='India'])[1]")).click();
 
     }
 }
